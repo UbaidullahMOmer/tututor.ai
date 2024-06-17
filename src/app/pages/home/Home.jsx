@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import BigCard from "../../components/bigCard/BigCard";
 import SmallCard from "../../components/smallCard/SmallCard";
 
 function Home() {
+  const [cardType, setCardType] = useState("horizontal");
   return (
     <>
       <div class="flex flex-col items-center gap-[36px]">
@@ -130,7 +131,12 @@ function Home() {
                 />
               </svg>
             </div>
-            <div class="flex cursor-pointer items-center justify-center rounded-[8px] bg-[#4EA7FF] p-[8px]">
+            <div
+              onClick={() => {
+                setCardType("vertical");
+              }}
+              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType == "vertical" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -168,7 +174,12 @@ function Home() {
                 />
               </svg>
             </div>
-            <div class="flex cursor-pointer items-center justify-center rounded-[8px] bg-[#4EA7FF50] p-[8px]">
+            <div
+              onClick={() => {
+                setCardType("horizontal");
+              }}
+              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType == "horizontal" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -244,12 +255,14 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="grid mt-[24px] grid-cols-4 gap-[24px]">
-        <SmallCard/>
-        <SmallCard/>
-        <SmallCard/>
-        <SmallCard/>
-        <SmallCard/>
+      <div className="grid mt-[24px] grid-cols-3 gap-[24px]">
+        {cardType == "vertical"
+          ? Array.from({ length: 10 }).map((_, index) => (
+              <SmallCard key={index} />
+            ))
+          : Array.from({ length: 10 }).map((_, index) => (
+              <BigCard key={index} />
+            ))}
       </div>
     </>
   );
