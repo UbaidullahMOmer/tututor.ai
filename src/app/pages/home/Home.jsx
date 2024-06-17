@@ -1,5 +1,6 @@
 import React from "react";
 import BigCard from "../../components/bigCard/BigCard";
+import SmallCard from "../../components/smallCard/SmallCard";
 
 function Home() {
   return (
@@ -244,11 +245,11 @@ function Home() {
         </div>
       </div>
       <div className="grid mt-[24px] grid-cols-4 gap-[24px]">
-        <BigCard/>
-        <BigCard/>
-        <BigCard/>
-        <BigCard/>
-        <BigCard/>
+        <SmallCard/>
+        <SmallCard/>
+        <SmallCard/>
+        <SmallCard/>
+        <SmallCard/>
       </div>
     </>
   );

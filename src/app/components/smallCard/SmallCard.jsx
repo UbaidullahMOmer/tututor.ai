@@ -1,8 +1,11 @@
 import React from "react";
+import { DocumentIcon } from "../../assets/icons/Icons";
 function SmallCard() {
   return (
     <div class="flex max-w-[420px] gap-[14px] rounded-[20px] p-[12px] shadow-[0_4px_40px_-15px_rgba(0,0,0,0.05)]">
-      <img src="https://picsum.photos/60" class="rounded-[10px]" alt="" />
+      <div class="rounded-[8px] bg-[#02E8AC] p-[12px] h-fit">
+          <DocumentIcon/>
+        </div>
       <div class="flex flex-col gap-[4px]">
         <span class="text-[18px] font-[600] text-[#2B3D70]">Maximoz Team</span>
         <span class="text-[#737791]">
