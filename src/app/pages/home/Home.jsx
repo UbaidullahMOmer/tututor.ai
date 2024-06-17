@@ -5,8 +5,8 @@ import SmallCard from "../../components/smallCard/SmallCard";
 function Home() {
   const [cardType, setCardType] = useState("horizontal");
   return (
-    <>
-      <div class="flex flex-col items-center gap-[36px]">
+    <div className="overflow-scroll max-h-[100vh]">
+      <div class="flex flex-col items-center gap-[36px] ">
         <div class="flex w-[310px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px]">
           <span class="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
             Professors
@@ -15,7 +15,7 @@ function Home() {
             Estudiantes
           </span>
         </div>
-        <div class="flex w-full items-center justify-between rounded-[8px] p-[12px] shadow-[0_4px_40px_0px_rgba(0,0,0,0.05)]">
+        <div class="flex w-full items-center justify-between rounded-[8px] p-[12px] " style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)"}}>
           <input
             type="text"
             class="w-full font-[500] text-[#4EA7FF] outline-none placeholder:text-[#2B3D70]"
@@ -264,7 +264,7 @@ function Home() {
               <BigCard key={index} />
             ))}
       </div>
-    </>
+    </div>
   );
 }
 
