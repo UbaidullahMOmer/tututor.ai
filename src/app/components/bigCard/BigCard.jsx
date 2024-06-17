@@ -1,4 +1,5 @@
 import React from "react";
+import { DocumentIcon } from "../../assets/icons/Icons";
 
 function BigCard() {
   return (
@@ -10,7 +11,9 @@ function BigCard() {
             Generador d tests y examenes
           </span>
         </div>
-        <img src="https://picsum.photos/60" class="rounded-[10px]" alt="" />
+        <div class="rounded-[8px] bg-[#02E8AC] p-[12px]">
+          <DocumentIcon/>
+        </div>
       </div>
       <span class="font-[500] text-[#4Ea7FF]"> $14,000 - $18,000 </span>
       <span class="text-[#737791]">
