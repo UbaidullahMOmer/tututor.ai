@@ -1,8 +1,10 @@
+import ReactRoutes from "./app/routes/ReactRoutes";
+
 function App() {
   return (
-    <div className="text-[40px] ">
-    Show
-    </div>
+    <>
+      <ReactRoutes/>
+    </>
   );
 }
 

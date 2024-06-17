@@ -1,8 +1,7 @@
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import Navbar from "../components/shared/navbar/Navbar";
-import Footer from "../components/shared/footer/Footer";
 import RoutesLink from "../constant/RoutesLink";
+import Sidebar from "../components/sidebar/Sidebar";
 const Layout = () => {
   const location = useLocation();
   const pathName = location.pathname;
@@ -19,9 +18,9 @@ const Layout = () => {
 
   return (
     <>
-      <Navbar />
+      <Sidebar/>
       <Outlet />
-      { !withoutFooterPaths?.some((path)=> path == pathName) && <Footer />}
+      {/* { !withoutFooterPaths?.some((path)=> path == pathName) && <Footer />} */}
     </>
   );
 };
