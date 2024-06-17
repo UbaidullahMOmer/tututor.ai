@@ -135,7 +135,7 @@ function Home() {
               onClick={() => {
                 setCardType("vertical");
               }}
-              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType == "vertical" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "vertical" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ function Home() {
               onClick={() => {
                 setCardType("horizontal");
               }}
-              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType == "horizontal" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "horizontal" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -256,7 +256,7 @@ function Home() {
         </div>
       </div>
       <div className="grid mt-[24px] grid-cols-3 gap-[24px]">
-        {cardType == "vertical"
+        {cardType === "vertical"
           ? Array.from({ length: 10 }).map((_, index) => (
               <SmallCard key={index} />
             ))
