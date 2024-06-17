@@ -15,7 +15,7 @@ function Sidebar() {
     <>
       <div className="h-fit ">
         <div className="flex h-full w-[345px] flex-col items-start justify-between rounded-[10px] bg-gradient-to-b gap-[24px] from-[#4EA7FF] to-[#007CF5] p-[32px]">
-          <div className="flex w-full flex-col items-start gap-[28px]">
+          <div className="flex w-full flex-col items-start gap-[20px]">
             <div className="flex items-center gap-[6px]">
                 <img src="./assets/logo.png" alt="" />
               <span className="text-[24px] font-[700] uppercase text-[#ECF6FF]">
@@ -23,7 +23,7 @@ function Sidebar() {
               </span>
             </div>
             <div className="h-[2px] w-full rounded-full bg-[#FFFFFF30]"></div>
-            <div className="flex w-full flex-col gap-[8px]">
+            <div className="flex w-full flex-col gap-[5px]">
               <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[24px]">
                 Main
               </span>
@@ -59,7 +59,7 @@ function Sidebar() {
               </div>
             </div>
             <div className="h-[2px] w-full rounded-full bg-[#FFFFFF30]"></div>
-            <div className="flex w-full flex-col gap-[8px]">
+            <div className="flex w-full flex-col gap-[5px]">
               <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[24px]">
                 OTHER
               </span>
