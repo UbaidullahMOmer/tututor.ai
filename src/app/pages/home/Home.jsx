@@ -5,7 +5,7 @@ import SmallCard from "../../components/smallCard/SmallCard";
 function Home() {
   const [cardType, setCardType] = useState("horizontal");
   return (
-    <div className="overflow-scroll max-h-[100vh]">
+    <div className="overflow-y-scroll max-h-[100vh] p-[32px]">
       <div class="flex flex-col items-center gap-[36px] ">
         <div class="flex w-[310px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px]">
           <span class="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">

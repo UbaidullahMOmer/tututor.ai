@@ -16,7 +16,7 @@ const Layout = () => {
   return (
     <div className="flex items-start">
       <Sidebar />
-      <div className="p-[32px] w-full">
+      <div className="  w-full">
         <Outlet />
       </div>
       {/* { !withoutFooterPaths?.some((path)=> path == pathName) && <Footer />} */}
