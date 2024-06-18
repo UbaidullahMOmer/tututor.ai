@@ -5,7 +5,7 @@ function BigCard() {
   return (
     <div
       style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)" }}
-      className="bg-white border border-[#F5F5F5] flex  flex-col gap-[14px] rounded-[20px] p-[12px] shadow-[0_4px_40px_-15px_rgba(0,0,0,0.05)]"
+      className="bg-white border border-[#F5F5F5] flex  flex-col 2xl:gap-[14px] gap-[6px] rounded-[20px] p-[12px] shadow-[0_4px_40px_-15px_rgba(0,0,0,0.05)]"
     >
       <div className="flex items-center justify-between">
         <div className="flex flex-col gap-[4px]">
