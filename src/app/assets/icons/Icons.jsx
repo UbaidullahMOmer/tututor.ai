@@ -314,7 +314,7 @@ const ContactIcon = ({ className, onclick, iconColor = "#ECF6FF" }) => {
     </svg>
   );
 };
-const CurrentIcon = ({ className, onclick, iconColor = "#ECF6FF" }) => {
+const CurrentIcon = ({ className, onclick, iconColor = "#4EA7FF" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
