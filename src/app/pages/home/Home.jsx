@@ -7,45 +7,45 @@ function Home() {
   return (
     <div className="overflow-y-scroll max-h-[100vh] min-h-[100vh] p-[32px] ">
       <div className="flex flex-col items-center gap-[36px] ">
-
-        <div className="flex justify-between w-full" >
-
-        <div className="flex min-w-[380px] h-[56px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px] bg-white">
-          <span className="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
-            Professors
-          </span>
-          <span className="w-full cursor-pointer rounded-full bg-[#FFF] p-[12px] text-center text-[#4EA7FF]">
-            Estudiantes
-          </span>
-        </div>
-
-        <div className="flex max-w-[486px] w-[486px] items-center justify-between rounded-[8px] p-[12px] bg-white " style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)"}}>
-          <input
-            type="text"
-            className="w-full font-[500] text-[#4EA7FF] outline-none placeholder:text-[#2B3D70]"
-            placeholder="Type to Search"
-          />
-          <div className="flex cursor-pointer items-center justify-center gap-[6px] rounded-[8px] bg-[#4EA7FF] px-[12px] py-[10px] transition-all hover:scale-95">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              className="h-[20px] w-[20px]"
-            >
-              <path
-                d="M14 14L11.1046 11.1046M11.1046 11.1046C12.0697 10.1394 12.6667 8.80609 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667C8.80609 12.6667 10.1394 12.0697 11.1046 11.1046Z"
-                stroke="white"
-                stroke-width="1.33333"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-            <span className="text-[#FFF]"> Search </span>
+        <div className="flex gap-[32px] max-xl:flex-col items-center justify-between w-full">
+          <div className="flex min-w-[380px] h-[56px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px] bg-white">
+            <span className="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
+              Professors
+            </span>
+            <span className="w-full cursor-pointer rounded-full bg-[#FFF] p-[12px] text-center text-[#4EA7FF]">
+              Estudiantes
+            </span>
           </div>
-        </div>
 
+          <div
+            className="flex max-w-[486px] w-[486px] items-center justify-between rounded-[8px] p-[12px] bg-white "
+            style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)" }}
+          >
+            <input
+              type="text"
+              className="w-full font-[500] text-[#4EA7FF] outline-none placeholder:text-[#2B3D70]"
+              placeholder="Type to Search"
+            />
+            <div className="flex cursor-pointer items-center justify-center gap-[6px] rounded-[8px] bg-[#4EA7FF] px-[12px] py-[10px] transition-all hover:scale-95">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                className="h-[20px] w-[20px]"
+              >
+                <path
+                  d="M14 14L11.1046 11.1046M11.1046 11.1046C12.0697 10.1394 12.6667 8.80609 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667C8.80609 12.6667 10.1394 12.0697 11.1046 11.1046Z"
+                  stroke="white"
+                  stroke-width="1.33333"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span className="text-[#FFF]"> Search </span>
+            </div>
+          </div>
         </div>
 
         <div className="flex items-center  w-full border-b-[2px] border-[#73779109] ">
@@ -143,7 +143,9 @@ function Home() {
               onClick={() => {
                 setCardType("vertical");
               }}
-              className={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "vertical" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+              className={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${
+                cardType === "vertical" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"
+              } `}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +188,9 @@ function Home() {
               onClick={() => {
                 setCardType("horizontal");
               }}
-              className={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "horizontal" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+              className={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${
+                cardType === "horizontal" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"
+              } `}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -263,7 +267,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="grid mt-[24px] grid-cols-3 gap-[24px]">
+      <div className="grid mt-[24px] grid-cols-3 gap-[16px] 2xl:gap-[24px]">
         {cardType === "vertical"
           ? Array.from({ length: 10 }).map((_, index) => (
               <SmallCard key={index} />

@@ -13,9 +13,9 @@ import {
 function Sidebar() {
   return (
       <div className="max-h-[100vh] overflow-y-scroll min-h-[100vh]">
-        <div className=" max-h-[100vh] overflow-y-scroll min-h-[100vh] flex  w-full flex-col items-start justify-between rounded-r-[10px] bg-gradient-to-b gap-[24px] from-[#4EA7FF] to-[#007CF5] p-[32px]">
+        <div className=" max-h-[100vh] overflow-y-scroll min-h-[100vh] flex  w-full flex-col items-start justify-between rounded-r-[10px] bg-gradient-to-b gap-[16px] 2xl:gap-[24px] from-[#4EA7FF] to-[#007CF5] p-[20px] 2xl:p-[32px]">
 
-          <div className="flex w-full flex-col items-start gap-[20px]">
+          <div className="flex w-full flex-col items-start gap-[12px] 2xl:gap-[20px]">
             <div className="flex items-center gap-[6px]">
                 <img src="./assets/logo.png" alt="" />
               <span className="text-[24px] font-[700] uppercase text-[#ECF6FF]">
@@ -27,33 +27,33 @@ function Sidebar() {
               <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[24px]">
                 Main
               </span>
-              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-[#e9f4ff] px-[24px] py-[16px]">
+              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-[#e9f4ff] 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
                 <ToolPanelIcon />
-                <span className="font-[600] text-[#379BFC]">
+                <span className="font-[600] text-[#379BFC] max-2xl:text-[14px]">
                   Panel de herramientas
                 </span>
               </div>
-              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent px-[24px] py-[16px]">
+              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
                 <GenerationHistory />
-                <span className="font-[600] text-[#FFF]">
+                <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Historial de Generaciones
                 </span>
               </div>
-              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent px-[24px] py-[16px]">
+              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
                 <QuizIcon />
-                <span className="font-[600] text-[#FFF]">
+                <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Generador de test y exameness
                 </span>
               </div>
-              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent px-[24px] py-[16px]">
+              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
                 <WriteIcon />
-                <span className="font-[600] text-[#FFF]">
+                <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Escritor Inteligente con IA
                 </span>
               </div>
-              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent px-[24px] py-[16px]">
+              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
                 <MindMapIcon />
-                <span className="font-[600] text-[#FFF]">
+                <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Mapas mentales para ayudarte a estudiar
                 </span>
               </div>
@@ -63,13 +63,13 @@ function Sidebar() {
               <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[24px]">
                 OTHER
               </span>
-              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent px-[24px] py-[16px]">
+              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
                 <BlogIcon />
-                <span className="font-[600] text-[#FFF]"> Blog </span>
+                <span className="font-[600] text-[#FFF] max-2xl:text-[14px]"> Blog </span>
               </div>
-              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent px-[24px] py-[16px]">
+              <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
                 <ContactIcon />
-                <span className="font-[600] text-[#FFF]"> Contacta </span>
+                <span className="font-[600] text-[#FFF] max-2xl:text-[14px]"> Contacta </span>
               </div>
             </div>
           </div>
