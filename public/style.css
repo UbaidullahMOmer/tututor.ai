@@ -7,6 +7,6 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
+    background-color: #fff;
+    outline: 1px solid #fff;
 }
