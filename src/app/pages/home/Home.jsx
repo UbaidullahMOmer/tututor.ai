@@ -5,34 +5,34 @@ import SmallCard from "../../components/smallCard/SmallCard";
 function Home() {
   const [cardType, setCardType] = useState("horizontal");
   return (
-    <div className="overflow-y-scroll max-h-[100vh] min-h-[100vh] p-[32px] bg-[#F3F9FF]">
-      <div class="flex flex-col items-center gap-[36px] ">
+    <div className="overflow-y-scroll max-h-[100vh] min-h-[100vh] p-[32px] ">
+      <div className="flex flex-col items-center gap-[36px] ">
 
         <div className="flex justify-between w-full" >
 
-        <div class="flex min-w-[380px] h-[56px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px]">
-          <span class="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
+        <div className="flex min-w-[380px] h-[56px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px]">
+          <span className="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
             Professors
           </span>
-          <span class="w-full cursor-pointer rounded-full bg-[#FFF] p-[12px] text-center text-[#4EA7FF]">
+          <span className="w-full cursor-pointer rounded-full bg-[#FFF] p-[12px] text-center text-[#4EA7FF]">
             Estudiantes
           </span>
         </div>
 
-        <div class="flex max-w-[486px] w-[486px] items-center justify-between rounded-[8px] p-[12px] bg-white " style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)"}}>
+        <div className="flex max-w-[486px] w-[486px] items-center justify-between rounded-[8px] p-[12px] bg-white " style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)"}}>
           <input
             type="text"
-            class="w-full font-[500] text-[#4EA7FF] outline-none placeholder:text-[#2B3D70]"
+            className="w-full font-[500] text-[#4EA7FF] outline-none placeholder:text-[#2B3D70]"
             placeholder="Type to Search"
           />
-          <div class="flex cursor-pointer items-center justify-center gap-[6px] rounded-[8px] bg-[#4EA7FF] px-[12px] py-[10px] transition-all hover:scale-95">
+          <div className="flex cursor-pointer items-center justify-center gap-[6px] rounded-[8px] bg-[#4EA7FF] px-[12px] py-[10px] transition-all hover:scale-95">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
               viewBox="0 0 16 16"
               fill="none"
-              class="h-[20px] w-[20px]"
+              className="h-[20px] w-[20px]"
             >
               <path
                 d="M14 14L11.1046 11.1046M11.1046 11.1046C12.0697 10.1394 12.6667 8.80609 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667C8.80609 12.6667 10.1394 12.0697 11.1046 11.1046Z"
@@ -42,38 +42,38 @@ function Home() {
                 stroke-linejoin="round"
               />
             </svg>
-            <span class="text-[#FFF]"> Search </span>
+            <span className="text-[#FFF]"> Search </span>
           </div>
         </div>
 
         </div>
 
-        <div class="flex flex-wrap items-center justify-center gap-[8px]">
-          <span class="min-w-[160px] cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
+        <div className="flex items-center  w-full border-b-[2px] border-[#73779109]">
+          <span className="min-w-[160px] cursor-pointer p-[12px] font-[500] text-center text-[#4EA7FF] border-b-[2px] border-[#4EA7FF]">
             Generador de tests
           </span>
-          <span class="min-w-[160px] cursor-pointer rounded-full bg-[#4EA7FF80] p-[12px] text-center text-[#FFF]">
+          <span className="min-w-[160px] cursor-pointer p-[12px] font-[500] text-center text-[#737791]">
             Resumidor de textos
           </span>
-          <span class="min-w-[160px] cursor-pointer rounded-full bg-[#4EA7FF80] p-[12px] text-center text-[#FFF]">
+          <span className="min-w-[160px] cursor-pointer p-[12px] font-[500] text-center text-[#737791]">
             Explicador de testos
           </span>
-          <span class="min-w-[160px] cursor-pointer rounded-full bg-[#4EA7FF80] p-[12px] text-center text-[#FFF]">
+          <span className="min-w-[160px] cursor-pointer p-[12px] font-[500] text-center text-[#737791]">
             Explicador de testos
           </span>
         </div>
 
-        <div class="flex w-full items-center justify-between">
-          <div class="flex flex-col gap-[4px]">
-            <span class="text-[18px] font-[500] text-[#2B3D70]">
+        <div className="flex w-full items-center justify-between">
+          <div className="flex flex-col gap-[4px]">
+            <span className="text-[18px] font-[500] text-[#2B3D70]">
               Showing 246 Jobs Results
             </span>
-            <span class="text-[14px] text-[#737791]">
+            <span className="text-[14px] text-[#737791]">
               Based on your preferences
             </span>
           </div>
-          <div class="flex items-center gap-[24px]">
-            <div class="flex items-center justify-center gap-[12px] rounded-[10px] border-[1px] border-[#4EA7FF] p-[10px]">
+          <div className="flex items-center gap-[24px]">
+            <div className="flex items-center justify-center gap-[12px] rounded-[10px] border-[1px] border-[#4EA7FF] p-[10px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ function Home() {
                 height="48"
                 color="#4EA7FF"
                 fill="none"
-                class="h-[20px] w-[20px]"
+                className="h-[20px] w-[20px]"
               >
                 <path
                   d="M6 15.5L18.0001 15.5001"
@@ -119,7 +119,7 @@ function Home() {
                   stroke-linejoin="round"
                 />
               </svg>
-              <span class="text-[#2B3D70]">Newest</span>
+              <span className="text-[#2B3D70]">Newest</span>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@ function Home() {
                 height="48"
                 color="#4EA7FF"
                 fill="none"
-                class="h-[20px] w-[20px]"
+                className="h-[20px] w-[20px]"
               >
                 <path
                   d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
@@ -143,7 +143,7 @@ function Home() {
               onClick={() => {
                 setCardType("vertical");
               }}
-              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "vertical" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+              className={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "vertical" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +186,7 @@ function Home() {
               onClick={() => {
                 setCardType("horizontal");
               }}
-              class={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "horizontal" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
+              className={`flex cursor-pointer items-center justify-center rounded-[8px]  p-[8px] ${cardType === "horizontal" ? "bg-[#4EA7FF]" : "bg-[#4EA7FF50]"} `}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
