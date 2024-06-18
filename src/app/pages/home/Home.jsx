@@ -8,7 +8,7 @@ function Home() {
     <div className="overflow-y-scroll max-h-[100vh] min-h-[100vh] 2xl:p-[32px] p-[14px] ">
       <div className="flex flex-col items-center 2xl:gap-[36px] gap-[20px] ">
         <div className="flex gap-[32px] max-xl:flex-col items-center justify-between w-full">
-          <div className="flex min-w-[380px] h-[54px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[2px] bg-white">
+          <div className="flex min-w-[380px] h-[53px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[2px] bg-white">
             <span className="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
               Professors
             </span>
