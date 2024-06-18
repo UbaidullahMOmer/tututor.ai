@@ -24,7 +24,7 @@ function Sidebar() {
             </div>
             <div className="h-[2px] w-full rounded-full bg-[#FFFFFF30]"></div>
             <div className="flex w-full flex-col gap-[5px]">
-              <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[24px]">
+              <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[18px]">
                 Main
               </span>
               <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-[#e9f4ff] 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
@@ -60,7 +60,7 @@ function Sidebar() {
             </div>
             <div className="h-[2px] w-full rounded-full bg-[#FFFFFF30]"></div>
             <div className="flex w-full flex-col gap-[5px]">
-              <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[24px]">
+              <span className="mb-[10px] text-[12px] uppercase text-[#ECF6FF] px-[18px]">
                 OTHER
               </span>
               <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
