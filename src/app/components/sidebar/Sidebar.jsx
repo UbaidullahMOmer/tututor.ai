@@ -76,7 +76,7 @@ function Sidebar() {
 
           <div className="flex w-full flex-col gap-[16px] rounded-[12px] bg-[#FFFFFF15] p-[16px]">
             <div className="flex w-full items-center justify-between  bg-[#CAE5FF] p-[10px] max-w-[38px] max-h-[38px] rounded-[8px]">
-              <CurrentIcon />
+              <CurrentIcon iconColor="#FBFBFD" />
             </div>
             <div className="flex flex-col gap-[8px]">
               <div className="flex w-full items-center justify-between">

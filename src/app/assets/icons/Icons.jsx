@@ -314,22 +314,22 @@ const ContactIcon = ({ className, onclick, iconColor = "#ECF6FF" }) => {
     </svg>
   );
 };
-const CurrentIcon = ({ className, onclick, iconColor = "#4EA7FF" }) => {
+const CurrentIcon = ({ className, onclick, iconColor = "#ECF6FF" }) => {
   return (
     <svg
+      className={className}
+      onClick={onclick}
       xmlns="http://www.w3.org/2000/svg"
       width="22"
       height="22"
       viewBox="0 0 22 22"
       fill="none"
-      className={className}
-      onClick={onclick}
     >
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M9.18659 1.06152C8.77918 1.06152 8.42067 1.33041 8.30659 1.72152L5.09826 12.7215C5.01747 12.9985 5.07181 13.2974 5.24493 13.5282C5.41804 13.759 5.68973 13.8949 5.97826 13.8949H9.52321L8.73534 20.1978C8.68261 20.6197 8.92684 21.0224 9.32529 21.1707C9.72373 21.3189 10.1718 21.1737 10.4076 20.82L17.741 9.82C17.9285 9.53871 17.946 9.17705 17.7865 8.87899C17.6269 8.58093 17.3163 8.39486 16.9783 8.39486H13.7177L16.0032 2.30005C16.1088 2.01855 16.0696 1.70317 15.8984 1.45606C15.7271 1.20895 15.4456 1.06152 15.1449 1.06152H9.18659Z"
-        fill={iconColor}
+        fill="#379BFC"
       />
     </svg>
   );
