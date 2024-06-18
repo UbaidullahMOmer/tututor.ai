@@ -10,7 +10,7 @@ function Home() {
 
         <div className="flex justify-between w-full" >
 
-        <div className="flex min-w-[380px] h-[56px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px]">
+        <div className="flex min-w-[380px] h-[56px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px] bg-white">
           <span className="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
             Professors
           </span>
@@ -48,7 +48,7 @@ function Home() {
 
         </div>
 
-        <div className="flex items-center  w-full border-b-[2px] border-[#73779109]">
+        <div className="flex items-center  w-full border-b-[2px] border-[#73779109] ">
           <span className="min-w-[160px] cursor-pointer p-[12px] font-[500] text-center text-[#4EA7FF] border-b-[2px] border-[#4EA7FF]">
             Generador de tests
           </span>
