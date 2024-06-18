@@ -10,7 +10,7 @@ function BigCard() {
       <div className="flex items-center justify-between">
         <div className="flex flex-col gap-[4px]">
           <span className="text-[#737791]"> Maximoz Team </span>
-          <span className="text-[18px] font-[600] text-[#2B3D70]">
+          <span className="text-[18px] font-[600] text-[#2B3D70] leading-[18px]">
             Generador d tests y examenes
           </span>
         </div>
