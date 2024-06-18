@@ -267,7 +267,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="grid mt-[24px] grid-cols-3 gap-[16px] 2xl:gap-[24px]">
+      <div className="grid mt-[24px] grid-cols-3 gap-[12px] 2xl:gap-[24px]">
         {cardType === "vertical"
           ? Array.from({ length: 10 }).map((_, index) => (
               <SmallCard key={index} />
