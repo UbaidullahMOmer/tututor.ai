@@ -28,31 +28,31 @@ function Sidebar() {
                 Main
               </span>
               <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-[#e9f4ff] 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
-                <ToolPanelIcon />
+                <ToolPanelIcon className={"h-[20px] w-[20px]"} />
                 <span className="font-[600] text-[#379BFC] max-2xl:text-[14px]">
                   Panel de herramientas
                 </span>
               </div>
               <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
-                <GenerationHistory />
+                <GenerationHistory className={"h-[20px] w-[20px]"}  />
                 <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Historial de Generaciones
                 </span>
               </div>
               <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
-                <QuizIcon />
+                <QuizIcon className={"h-[20px] w-[20px]"}  />
                 <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Generador de test y exameness
                 </span>
               </div>
               <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
-                <WriteIcon />
+                <WriteIcon className={"h-[20px] w-[20px]"}  />
                 <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Escritor Inteligente con IA
                 </span>
               </div>
               <div className="flex w-full items-center gap-[10px] rounded-[8px] bg-transparent 2xl:px-[24px] py-[8px] px-[16px] 2xl:py-[16px]">
-                <MindMapIcon />
+                <MindMapIcon className={"h-[20px] w-[20px]"}  />
                 <span className="font-[600] text-[#FFF] max-2xl:text-[14px]">
                   Mapas mentales para ayudarte a estudiar
                 </span>

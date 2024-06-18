@@ -68,7 +68,7 @@ const ToolPanelIcon = ({ className, onclick, iconColor = "#379BFC" }) => {
       height="20"
       viewBox="0 0 20 20"
       fill="none"
-      className={`h-[20px] w-[20px] cursor-pointer ${className}`}
+      className={` ${className}`}
       onClick={onclick}
     >
       <path
@@ -83,7 +83,7 @@ const ToolPanelIcon = ({ className, onclick, iconColor = "#379BFC" }) => {
 const MindMapIcon = ({ className, onclick, iconColor = "#ECF6FF" }) => {
   return (
     <svg
-      className={`h-[20px] w-[20px] ${className}`}
+      className={` ${className}`}
       onClick={onclick}
       xmlns="http://www.w3.org/2000/svg"
       width="18"
