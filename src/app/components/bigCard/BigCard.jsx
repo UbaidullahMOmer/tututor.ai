@@ -25,7 +25,7 @@ function BigCard() {
         ultricies tellus.
       </span>
       <div className="flex items-center justify-between">
-        <span className="cursor-default rounded-[4px] bg-[#4EA7FF80] px-[12px] py-[10px] text-[#FFF]">
+        <span className="cursor-default rounded-[4px] bg-[#4EA7FF80] px-[12px] py-[6px] text-[#FFF]">
           Remote
         </span>
         <span className="text-[#737791]">Education</span>
