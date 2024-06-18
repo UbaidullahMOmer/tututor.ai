@@ -14,7 +14,7 @@ const Layout = () => {
   }, [pathName]);
 
   return (
-    <div className="flex items-start">
+    <div className="flex items-start w-full h-full">
       <Sidebar />
       <div className="  w-full">
         <Outlet />

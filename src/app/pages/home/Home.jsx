@@ -5,9 +5,12 @@ import SmallCard from "../../components/smallCard/SmallCard";
 function Home() {
   const [cardType, setCardType] = useState("horizontal");
   return (
-    <div className="overflow-y-scroll max-h-[100vh] p-[32px]">
+    <div className="overflow-y-scroll max-h-[100vh] min-h-[100vh] p-[32px] bg-[#F3F9FF]">
       <div class="flex flex-col items-center gap-[36px] ">
-        <div class="flex w-[310px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px]">
+
+        <div className="flex justify-between w-full" >
+
+        <div class="flex min-w-[380px] h-[56px] items-center overflow-hidden rounded-full border-[1px] border-[#4EA7FF] p-[4px]">
           <span class="w-full cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
             Professors
           </span>
@@ -15,7 +18,8 @@ function Home() {
             Estudiantes
           </span>
         </div>
-        <div class="flex w-full items-center justify-between rounded-[8px] p-[12px] " style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)"}}>
+
+        <div class="flex max-w-[486px] w-[486px] items-center justify-between rounded-[8px] p-[12px] bg-white " style={{ boxShadow: "0px 4px 40px 0px rgba(0, 0, 0, 0.05)"}}>
           <input
             type="text"
             class="w-full font-[500] text-[#4EA7FF] outline-none placeholder:text-[#2B3D70]"
@@ -41,6 +45,9 @@ function Home() {
             <span class="text-[#FFF]"> Search </span>
           </div>
         </div>
+
+        </div>
+
         <div class="flex flex-wrap items-center justify-center gap-[8px]">
           <span class="min-w-[160px] cursor-pointer rounded-full bg-[#4EA7FF] p-[12px] text-center text-[#FFF]">
             Generador de tests
@@ -55,6 +62,7 @@ function Home() {
             Explicador de testos
           </span>
         </div>
+
         <div class="flex w-full items-center justify-between">
           <div class="flex flex-col gap-[4px]">
             <span class="text-[18px] font-[500] text-[#2B3D70]">
