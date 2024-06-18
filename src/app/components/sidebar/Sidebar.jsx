@@ -13,7 +13,7 @@ import {
 function Sidebar() {
   return (
       <div className="max-h-[100vh] overflow-y-scroll min-h-[100vh]">
-        <div className=" max-h-[100vh] overflow-hidden min-h-[100vh] flex  w-full flex-col items-start justify-between rounded-r-[10px] bg-gradient-to-b gap-[24px] from-[#4EA7FF] to-[#007CF5] p-[32px]">
+        <div className=" max-h-[100vh] overflow-y-scroll min-h-[100vh] flex  w-full flex-col items-start justify-between rounded-r-[10px] bg-gradient-to-b gap-[24px] from-[#4EA7FF] to-[#007CF5] p-[32px]">
 
           <div className="flex w-full flex-col items-start gap-[20px]">
             <div className="flex items-center gap-[6px]">
