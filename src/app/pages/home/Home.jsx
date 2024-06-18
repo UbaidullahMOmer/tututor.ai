@@ -72,7 +72,7 @@ function Home() {
               Based on your preferences
             </span>
           </div>
-          <div className="flex items-center gap-[24px]">
+          <div className="flex items-center gap-[18px]">
             <div className="flex items-center justify-center gap-[12px] rounded-[10px] border-[1px] border-[#4EA7FF] p-[10px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -139,6 +139,7 @@ function Home() {
                 />
               </svg>
             </div>
+            <div className="flex items-center gap-[7px]">
             <div
               onClick={() => {
                 setCardType("vertical");
@@ -263,6 +264,7 @@ function Home() {
                   stroke-linejoin="round"
                 />
               </svg>
+            </div>
             </div>
           </div>
         </div>

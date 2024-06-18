@@ -19,7 +19,7 @@ function BigCard() {
         </div>
       </div>
       <span className="font-[500] text-[#4Ea7FF]"> $14,000 - $18,000 </span>
-      <span className="text-[#737791]">
+      <span className="text-[#737791] leading-[18px]">
         Lorem ipsum dolor sit amet consectetur. Mi ac platea adipiscing mi mi
         adipiscing elementum odio. In eget volutpat mauris dictumst sit
         ultricies tellus.
